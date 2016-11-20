@@ -1,4 +1,5 @@
 <?php
+error_reporting(E_ALL ^ E_WARNING ^ E_NOTICE ^ E_DEPRECATED ^ E_STRICT);
 	$filename= 'abc.sql';
     $hostname = 'localhost';
     $username = 'root';
