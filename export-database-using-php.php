@@ -5,7 +5,7 @@
 
 	defined('DB_PASSWORD') ? null : define('DB_PASSWORD', '');
 
-	defined('DB_NAME') ? null : define('DB_NAME', 'nadkarnita');
+	defined('DB_NAME') ? null : define('DB_NAME', 'technogenous');
 
 	$conn = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASSWORD);
 	
